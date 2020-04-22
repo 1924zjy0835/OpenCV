@@ -762,6 +762,7 @@
       <change beforePath="$PROJECT_DIR$/../../Lib/types.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lib/warnings.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lib/weakref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate.ps1" beforeDir="false" />
@@ -1787,8 +1788,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ROI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="70">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="e#178#194#0" expanded="true" />
               </folding>
@@ -1833,8 +1834,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1160" />
-    <option name="y" value="107" />
+    <option name="x" value="952" />
+    <option name="y" value="81" />
     <option name="width" value="963" />
     <option name="height" value="964" />
   </component>
@@ -2109,15 +2110,15 @@
       <workItem from="1587337921867" duration="12918000" />
       <workItem from="1587422884621" duration="13219000" />
       <workItem from="1587460360471" duration="1119000" />
-      <workItem from="1587523963285" duration="4578000" />
+      <workItem from="1587523963285" duration="8761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58934000" />
+    <option name="totallyTimeSpent" value="63117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="928" y="86" width="770" height="771" extended-state="0" />
+    <frame x="762" y="65" width="770" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.10674723" />
@@ -2125,7 +2126,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29890454" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47887325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2154,7 +2155,7 @@
     <SUITE FILE_PATH="coverage/P1_test02$turtor_01.coverage" NAME="turtor_01 Coverage Results" MODIFIED="1576391492693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1587440328790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$videoCapture.coverage" NAME="videoCapture Coverage Results" MODIFIED="1587438185673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P1_test02$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1587528409778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P1_test02$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1587535725607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dist/images/turtor_01/gray_turtor_01.jpg">
@@ -2218,16 +2219,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/guyan01.jpg" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35445">
-          <caret line="2405" column="24" selection-start-line="2405" selection-start-column="24" selection-end-line="2405" selection-end-column="24" />
-          <folding>
-            <element signature="e#172#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pixel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -2259,10 +2250,20 @@
     <entry file="file://$PROJECT_DIR$/images/flowers01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6549" column="17" selection-start-line="6549" selection-start-column="17" selection-end-line="6549" selection-end-column="17" />
+          <folding>
+            <element signature="e#172#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ROI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="70">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="e#178#194#0" expanded="true" />
           </folding>
