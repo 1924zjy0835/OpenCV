@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="99067d80-da85-44c3-a67a-5de4fb99095b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/ROI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lena.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/Python-ast.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/Python.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/abstract.h" beforeDir="false" />
@@ -762,7 +764,6 @@
       <change beforePath="$PROJECT_DIR$/../../Lib/types.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lib/warnings.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lib/weakref.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scripts/activate.ps1" beforeDir="false" />
@@ -1786,25 +1787,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ROI.py">
+        <entry file="file://$PROJECT_DIR$/blur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
-                <element signature="e#178#194#0" expanded="true" />
+                <element signature="e#179#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/WindowsLogo.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/photo01.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="5851" column="8" lean-forward="true" selection-start-line="5851" selection-start-column="8" selection-end-line="5851" selection-end-column="8" />
+              <folding>
+                <element signature="e#172#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -1830,6 +1833,7 @@
         <option value="$PROJECT_DIR$/videoCapture.py" />
         <option value="$PROJECT_DIR$/pixel.py" />
         <option value="$PROJECT_DIR$/ROI.py" />
+        <option value="$PROJECT_DIR$/blur.py" />
       </list>
     </option>
   </component>
@@ -1867,18 +1871,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git02\Git02\Open CV\Opencv-env\P1-test02\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git02\Git02\Open CV\Opencv-env\P1-test02\dist\images\turtor_01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git02\Git02\Open CV\Opencv-env\OpenCVGit\P1-test02\images" />
+      <recent name="D:\Git02\Git02\Open CV\Opencv-env\P1-test02\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1893,7 +1898,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ROI">
+  <component name="RunManager" selected="Python.blur">
     <configuration name="ROI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="P1-test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1908,6 +1913,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ROI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="blur" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="P1-test02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2026,28 +2053,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial_Numpy_03" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="P1-test02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_Numpy_03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="videoCapture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="P1-test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2074,19 +2079,19 @@
       <item itemvalue="Python.test01" />
       <item itemvalue="Python.turtor_01" />
       <item itemvalue="Python.turtor_02" />
-      <item itemvalue="Python.tutorial_Numpy_03" />
       <item itemvalue="Python.color_space" />
       <item itemvalue="Python.videoCapture" />
       <item itemvalue="Python.pixel" />
       <item itemvalue="Python.ROI" />
+      <item itemvalue="Python.blur" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blur" />
         <item itemvalue="Python.ROI" />
         <item itemvalue="Python.pixel" />
         <item itemvalue="Python.videoCapture" />
         <item itemvalue="Python.color_space" />
-        <item itemvalue="Python.tutorial_Numpy_03" />
       </list>
     </recent_temporary>
   </component>
@@ -2110,23 +2115,23 @@
       <workItem from="1587337921867" duration="12918000" />
       <workItem from="1587422884621" duration="13219000" />
       <workItem from="1587460360471" duration="1119000" />
-      <workItem from="1587523963285" duration="8761000" />
+      <workItem from="1587523963285" duration="13354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63117000" />
+    <option name="totallyTimeSpent" value="67710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="65" width="770" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.10674723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1755618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47887325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21596244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2154,6 +2159,7 @@
     <SUITE FILE_PATH="coverage/P1_test02$color_space.coverage" NAME="color_space Coverage Results" MODIFIED="1587353585666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$turtor_01.coverage" NAME="turtor_01 Coverage Results" MODIFIED="1576391492693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1587440328790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P1_test02$blur.coverage" NAME="blur Coverage Results" MODIFIED="1587546131650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$videoCapture.coverage" NAME="videoCapture Coverage Results" MODIFIED="1587438185673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1587535725607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -2235,12 +2241,6 @@
     <entry file="file://$PROJECT_DIR$/images/flowers02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/WindowsLogo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/photo01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/photo02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -2250,22 +2250,38 @@
     <entry file="file://$PROJECT_DIR$/images/flowers01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ROI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#178#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/WindowsLogo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/photo01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="6549" column="17" selection-start-line="6549" selection-start-column="17" selection-end-line="6549" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="5851" column="8" lean-forward="true" selection-start-line="5851" selection-start-column="8" selection-end-line="5851" selection-end-column="8" />
           <folding>
             <element signature="e#172#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ROI.py">
+    <entry file="file://$PROJECT_DIR$/blur.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
-            <element signature="e#178#194#0" expanded="true" />
+            <element signature="e#179#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
