@@ -1799,11 +1799,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="6627" column="22" selection-start-line="6627" selection-start-column="22" selection-end-line="6627" selection-end-column="22" />
+              <folding>
+                <element signature="e#172#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gaussianBlur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="393">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="e#186#202#0" expanded="true" />
               </folding>
@@ -2118,12 +2130,12 @@
       <workItem from="1587422884621" duration="13219000" />
       <workItem from="1587460360471" duration="1119000" />
       <workItem from="1587523963285" duration="13700000" />
-      <workItem from="1587604800807" duration="2293000" />
+      <workItem from="1587604800807" duration="3044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70349000" />
+    <option name="totallyTimeSpent" value="71100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="764" y="60" width="771" height="772" extended-state="0" />
@@ -2160,7 +2172,7 @@
     <SUITE FILE_PATH="coverage/P1_test02$tutorial_Numpy_03.coverage" NAME="tutorial_Numpy_03 Coverage Results" MODIFIED="1587301024998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$turtor_02.coverage" NAME="turtor_02 Coverage Results" MODIFIED="1576145425172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$color_space.coverage" NAME="color_space Coverage Results" MODIFIED="1587353585666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P1_test02$gaussianBlur.coverage" NAME="gaussianBlur Coverage Results" MODIFIED="1587606885557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P1_test02$gaussianBlur.coverage" NAME="gaussianBlur Coverage Results" MODIFIED="1587607848983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$turtor_01.coverage" NAME="turtor_01 Coverage Results" MODIFIED="1576391492693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$pixel.coverage" NAME="pixel Coverage Results" MODIFIED="1587440328790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P1_test02$blur.coverage" NAME="blur Coverage Results" MODIFIED="1587546131650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -2271,16 +2283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87135">
-          <caret line="5851" column="8" selection-start-line="5851" selection-start-column="8" selection-end-line="5851" selection-end-column="8" />
-          <folding>
-            <element signature="e#172#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/photo01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -2297,10 +2299,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="6627" column="22" selection-start-line="6627" selection-start-column="22" selection-end-line="6627" selection-end-column="22" />
+          <folding>
+            <element signature="e#172#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gaussianBlur.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="393">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
             <element signature="e#186#202#0" expanded="true" />
           </folding>
