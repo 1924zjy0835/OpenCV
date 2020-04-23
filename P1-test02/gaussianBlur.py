@@ -37,7 +37,6 @@ def Gaussian_noise(image):
 
 
 src = cv.imread("./images/flowers01.jpg")
-cv.imshow("原图", src)
 
 # 统计时间
 # getTickCount()函数返回操作系统启动到当前所经过的计时周期数
@@ -48,6 +47,8 @@ t2 = cv.getTickCount()
 time = (t2 - t1)/cv.getTickFrequency()
 print("耗费时间：%s"%time)  # 耗费时间：10.2369628
 
+
+# 高斯模糊对高斯噪声有一定的抑制作用
 # GaussianBlur(src, ksize, sigmaX, dst=None, sigmaY=None, borderType=None)
 dst = cv.GaussianBlur(src, (0, 0), 15)
 cv.imshow("Gaussian image 2", dst)

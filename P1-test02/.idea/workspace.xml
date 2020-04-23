@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/blur.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gaussianBlur.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/lena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/说明文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/Python-ast.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/Python.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Include/abstract.h" beforeDir="false" />
@@ -1800,25 +1801,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/333196614/cv2/cv2/__init__.py">
+        <entry file="file://$PROJECT_DIR$/gaussianBlur.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="6627" column="22" selection-start-line="6627" selection-start-column="22" selection-end-line="6627" selection-end-column="22" />
+            <state relative-caret-position="228">
+              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
-                <element signature="e#172#255#0" expanded="true" />
+                <element signature="e#186#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gaussianBlur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-              <folding>
-                <element signature="e#186#202#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/说明文档.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -1848,6 +1849,8 @@
         <option value="$PROJECT_DIR$/ROI.py" />
         <option value="$PROJECT_DIR$/blur.py" />
         <option value="$PROJECT_DIR$/gaussianBlur.py" />
+        <option value="$PROJECT_DIR$/说明文档.txt" />
+        <option value="$PROJECT_DIR$/说明文档.md" />
       </list>
     </option>
   </component>
@@ -1869,11 +1872,6 @@
             <path>
               <item name="P1-test02" type="b2602c69:ProjectViewProjectNode" />
               <item name="P1-test02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P1-test02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P1-test02" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2130,23 +2128,23 @@
       <workItem from="1587422884621" duration="13219000" />
       <workItem from="1587460360471" duration="1119000" />
       <workItem from="1587523963285" duration="13700000" />
-      <workItem from="1587604800807" duration="3044000" />
+      <workItem from="1587604800807" duration="6340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71100000" />
+    <option name="totallyTimeSpent" value="74396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="764" y="60" width="771" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25385696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25385696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2578125" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2578125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2311,11 +2309,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gaussianBlur.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="e#186#202#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明文档.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
