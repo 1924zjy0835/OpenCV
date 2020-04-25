@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 
 
 def plot_demo(image):
+    # numpy中的ravel()/flatten()/squeeze()都有将多维数组转换为一维数组的功能
     plt.hist(image.ravel(), 256, [0,256])
     plt.show()
 

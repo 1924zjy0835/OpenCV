@@ -9,6 +9,12 @@ import cv2 as cv
 import numpy as np
 
 
+def Gaussian_demo(image):
+    dst = cv.GaussianBlur(image, (0, 0), 3)
+    cv.imshow("Gaussian image", dst)
+
+
+
 def clamp(value):
     if value > 255:
         return 255
@@ -36,7 +42,7 @@ def Gaussian_noise(image):
     cv.imshow("Gaussian image", image)
 
 
-src = cv.imread("./images/flowers01.jpg")
+src = cv.imread("./images/raindropGirl.jpg")
 
 # 统计时间
 # getTickCount()函数返回操作系统启动到当前所经过的计时周期数
@@ -50,7 +56,9 @@ print("耗费时间：%s"%time)  # 耗费时间：10.2369628
 
 # 高斯模糊对高斯噪声有一定的抑制作用
 # GaussianBlur(src, ksize, sigmaX, dst=None, sigmaY=None, borderType=None)
-dst = cv.GaussianBlur(src, (0, 0), 15)
-cv.imshow("Gaussian image 2", dst)
+# dst = cv.GaussianBlur(src, (0, 0), 15)
+# cv.imshow("Gaussian image 2", dst)
+
+Gaussian_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
